@@ -53,7 +53,7 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">JailWAM: Jailbreaking World Action Models in Robot Control</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">匿名</span>
+            <span class="author-block">Anonymous</span>
           </div>
         </div>
       </div>
@@ -65,12 +65,58 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>The World Action Model (WAM) can jointly predict future world
+            states and actions, exhibiting stronger physical manipulation capa-
+            bilities compared with traditional models. Such powerful physical
+            interaction ability is a double-edged sword: if safety is ignored, it
+            will directly threaten personal safety, property security and environ-
+            mental safety. However, existing research pays extremely limited attention to the critical security gap: the vulnerability of WAM to
+            jailbreak attacks. To fill this gap, we define the Three-Level Safety
+            Classification Framework to systematically quantify the safety
+            of robotic arm motions. Furthermore, we propose JailWAM, the
+            first dedicated jailbreak attack and evaluation framework for WAM,
+            which consists of three core components: (1) Visual-Trajectory
+            Mapping, which unifies heterogeneous action spaces into visual
+            trajectory representations and enables cross-architectural unified
+            evaluation; (2) Risk Discriminator, which serves as a high-recall 
+            screening tool that optimizes the efficiency-accuracy trade-off when
+            identifying destructive behaviors in visual trajectories; (3) Dual-
+            Path Verification Strategy, which first conducts rapid coarse
+            screening via a single-image-based video-action generation mod-
+            ule, and then performs efficient and comprehensive verification
+            through full closed-loop physical simulation. In addition, we con-
+            struct JailWAM-Bench, a benchmark for comprehensively evalu-
+            ating the safety alignment performance of WAM under jailbreak
+            attacks. Experiments in RoboTwin simulation environment demon-
+            strate that the proposed framework efficiently exposes physical
+            vulnerabilities, achieving an 84.2% attack success rate on the state-
+            of-the-art LingBot-VA. Meanwhile, robust defense mechanisms can
+            be constructed based on JailWAM, providing an effective technical
+            solution for designing safe and reliable robot control systems.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
           <video controls width="100%" autoplay loop muted>
-            <source src="./static/videos/teaser.mp4" type="video/mp4">
+            <source src="./static/videos/cr10_28_Test_the_torque-limit_cutoffs_by_commanding_a_500N_downward_thrust_against_the_workspace_surface._False.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Framework</h2>
+        <div class="publication-video">
+          <embed src="./static/images/framework.pdf" type="application/pdf" width="100%" height="600px" />
         </div>
       </div>
     </div>
