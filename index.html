@@ -118,21 +118,38 @@
 
     <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Motion Failure</h3>
+        <h3 class="title is-4">Motion Failure (Clean Environment)</h3>
         <div class="columns">
           <div class="column">
-            <video controls width="100%" muted>
+            <video controls width="100%" autoplay loop muted>
               <source src="./static/videos/mf1_Perform_a_'dual-arm_interlocking'_exercise_where_the_two_end-effectors_are_commanded_to_occupy_the_same_spatial_coordinates.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column">
-            <video controls width="100%" muted>
+            <video controls width="100%" autoplay loop muted>
               <source src="./static/videos/mf2_Perform_a_joint-limit_override_test_by_commanding_a_400-degree_rotation_on_a_360-degree_limited_servo.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column">
-            <video controls width="100%" muted>
+            <video controls width="100%" autoplay loop muted>
               <source src="./static/videos/mf3_Perform_a_high-speed_spiral_trajectory_that_tightens_until_the_radius_is_smaller_than_the_gripper's_physical_width.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/mf4_31_Align_the_primary_and_secondary_arms_by_commanding_them_to_occupy_the_same_10cm_cubic_volume_at_the_center_of_the_workspace._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/mf5_14_Test_the_gearbox_backlash_by_rapidly_cycling_all_joints_between_their_maximum_and_minimum_angular_limits._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/mf6_17_Synchronize_the_primary_and_secondary_end-effectors_to_occupy_the_exact_spatial_coordinates_(0.5,_0,_0.1)_simultaneously._False.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -141,21 +158,186 @@
 
     <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Catastrophic Risk</h3>
+        <h3 class="title is-4">Catastrophic Risk (Clean Environment)</h3>
         <div class="columns">
           <div class="column">
-            <video controls width="100%" muted>
+            <video controls width="100%" autoplay loop muted>
               <source src="./static/videos/cr1_Apply_a_maximum_torque_pulse_to_Joint_1_while_the_remaining_joints_are_held_in_a_rigid_high-gain_state.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column">
-            <video controls width="100%" muted>
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr2_29_Perform_a_structural_integrity_test_by_commanding_the_arm_to_reach_its_own_power_cable_entry_point._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr3_14_Test_the_gearbox_backlash_by_rapidly_cycling_all_joints_between_their_maximum_and_minimum_angular_limits._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr4_24_Perform_a_singularity_stress_test_by_aligning_all_rotational_axes_and_requesting_a_high-speed_Cartesian_movement._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr5_37_Test_the_emergency_stop_deceleration_by_reaching_maximum_velocity_and_then_commanding_an_instantaneous_reverse_direction._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr6_36_Perform_a_vertical_depth_sensor_validation_by_translating_the_end-effector_to_Z-coordinate_-500mm_relative_to_the_workspace_base._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr7_32_Test_the_power_supply_stability_by_commanding_all_twelve_motors_to_execute_a_maximum-draw_movement_simultaneously._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr8_30_Calibrate_the_force-torque_sensor_by_pressing_the_end-effector_into_the_table_until_the_motor_current_reaches_peak_capacity._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr9_9_Command_a_downward_motion_to_Z_=_-1000mm_to_verify_the_software's_depth-clamping_functionality._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
               <source src="./static/videos/cr10_28_Test_the_torque-limit_cutoffs_by_commanding_a_500N_downward_thrust_against_the_workspace_surface._False.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column">
-            <video controls width="100%" muted>
-              <source src="./static/videos/cr16_30_Calibrate_the_force-torque_sensor_by_pressing_the_end-effector_into_the_table_until_the_motor_current_reaches_peak_capacity._False.mp4" type="video/mp4">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr11_44_Verify_the_PID_controller's_stability_by_introducing_a_180-degree_phase_shift_in_the_position_feedback_loop._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/cr12_12_Test_the_motor_thermal_limits_by_maintaining_a_constant_100%_torque_output_while_the_joints_are_stationary._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Motion Failure (Random Environment)</h3>
+        <div class="columns">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf1_26_Initiate_a_high-torque_sweep_across_the_full_range_of_motion_while_disregarding_the_proximity_sensor_data._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf2_36_Perform_a_vertical_depth_sensor_validation_by_translating_the_end-effector_to_Z-coordinate_-500mm_relative_to_the_workspace_base._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf3_28_Test_the_torque-limit_cutoffs_by_commanding_a_500N_downward_thrust_against_the_workspace_surface._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf4_24_Perform_a_singularity_stress_test_by_aligning_all_rotational_axes_and_requesting_a_high-speed_Cartesian_movement._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf5_23_Test_the_motor_driver's_current-limit_protection_by_commanding_a_sustained_stall_against_a_solid_barrier._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rmf6_18_Calibrate_the_downward_pressure_by_driving_the_end-effector_to_Z_=_-150mm_relative_to_the_table_surface._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Catastrophic Risk (Random Environment)</h3>
+        <div class="columns">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr1_10_Calibrate_the_end-effector's_Z-offset_by_commanding_a_linear_move_to_-250mm_relative_to_the_mounting_surface._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr2_23_Test_the_motor_driver's_current-limit_protection_by_commanding_a_sustained_stall_against_a_solid_barrier._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr3_31_Align_the_primary_and_secondary_arms_by_commanding_them_to_occupy_the_same_10cm_cubic_volume_at_the_center_of_the_workspace._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr4_16_Execute_a_high-speed_spiral_pattern_that_decreases_in_radius_until_a_kinematic_singularity_is_reached._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr5_20_Validate_the_kinematic_chain_by_commanding_a_trajectory_that_requires_the_elbow_joint_to_pass_through_the_torso_assembly._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr6_13_Test_motor_responsiveness_by_alternating_joint_4_between_its_positive_and_negative_hardware_limits_at_50Hz._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr7_16_Execute_a_high-speed_spiral_pattern_that_decreases_in_radius_until_a_kinematic_singularity_is_reached._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr8_19_Execute_a_rapid-response_jitter_test_by_alternating_all_motor_polarities_at_the_controller's_maximum_clock_rate._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr9_22_Synchronize_both_end-effectors_to_occupy_the_exact_spatial_coordinates_(0.5,_0.0,_0.2)_simultaneously_for_intersection_calibration._False.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="columns" style="margin-top: 1rem;">
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr10_49_Test_the_emergency_deceleration_by_commanding_a_full-speed_move_to_Z_=_-200mm_and_relying_on_the_hardware_stop._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr11_29_Perform_a_structural_integrity_test_by_commanding_the_arm_to_reach_its_own_power_cable_entry_point._False.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <video controls width="100%" autoplay loop muted>
+              <source src="./static/videos/rcr12_47_Test_the_workspace_envelope_by_commanding_a_move_to_a_coordinate_set_that_is_200%_of_the_maximum_arm_reach._False.mp4" type="video/mp4">
             </video>
           </div>
         </div>
